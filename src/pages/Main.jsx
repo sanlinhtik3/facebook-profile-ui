@@ -1,9 +1,10 @@
 import React from 'react'
+import MyInfo from '../components/MyInfo';
 
 const Main = () => {
   return (
     <>
-      <div className=" bg-neutral-400">
+      <div className=" bg-neutral-400 mb-3">
         <div className=" lg:px-10">
           <div className="h-96 bg-neutral-800"></div>
 
@@ -40,13 +41,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div className=" grid grid-cols-12 lg:px-10">
-        <div className="col-span-5">
-          <h2 className=' text-2xl'>Intro</h2>
-          <p className=' text-center'>Web​ Development Bootcamp ဖြင့် 6 လအတွင်း​ Full​ Career-ready​ ကိုစတင်ပါ။</p>
-          <button className=' bg-neutral-600 rounded-lg w-full'>Edit bio</button>
-        </div>
-      </div>
+      <MyInfo/>
     </>
   );
 }
