@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
     <>
       <div className="flex justify-between">
         <Sidebar />
-        <div className="h-screen bg-slate-300 overflow-scroll w-full">{children}</div>
+        <div className="h-screen overflow-scroll w-full">{children}</div>
       </div>
     </>
   );
